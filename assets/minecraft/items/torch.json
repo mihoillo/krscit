@@ -1,0 +1,25 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": [
+            "blub",
+            "Blub",
+            "лампочка",
+            "Лампочка"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/blub/blub"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/torch"
+      }
+    }
+  }
