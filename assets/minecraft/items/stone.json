@@ -1,0 +1,25 @@
+{
+    "model": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:custom_name",
+      "cases": [
+        {
+          "when": [
+            "mailbox",
+            "mail box",
+            "почта",
+            "Почта"
+          ],
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/mailbox/mailbox"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:block/stone"
+      }
+    }
+  }
